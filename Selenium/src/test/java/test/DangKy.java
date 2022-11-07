@@ -19,7 +19,7 @@ public class DangKy {
         WebDriver driver = driverFactory.getChromeDriver();
         try {
             int scc = 0;
-            String emailTxt = "1122@gmail.com";
+            String emailTxt = "10344@gmail.com";
             String passTxt = "thisIsPass";
             String fNameTxt = "Test";
             String lNameTxt = "Test";
@@ -41,7 +41,7 @@ public class DangKy {
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\dangky-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\dangky-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             //3. Xac Nhan 
@@ -50,7 +50,9 @@ public class DangKy {
 
             scc ++;
             srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            png = ("D:\\image\\dangky-" + scc + ".png");
+//            png = ("D:\\image\\dangky-" + scc + ".png");
+            // image_demo
+            png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\dangky-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep( 5000);

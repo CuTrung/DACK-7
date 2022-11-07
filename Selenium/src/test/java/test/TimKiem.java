@@ -25,7 +25,9 @@ int scc=0;
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\search-" + scc + ".png");
+//            String png = ("D:\\image\\search-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\search-" + scc + ".png");
+
             FileHandler.copy(srcFile, new File(png));
 
             WebElement search = driver.findElement(By.cssSelector("input.input-group-field.st-default-search-input.search-text.auto-search"));
@@ -33,7 +35,7 @@ int scc=0;
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\search-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\search-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             WebElement confirm = driver.findElement(By.xpath("/html/body/header/nav/div/div[1]/div/div/form/span/button"));
@@ -41,7 +43,7 @@ int scc=0;
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\search-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\search-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep( 5000);

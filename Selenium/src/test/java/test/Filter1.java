@@ -25,7 +25,9 @@ public class Filter1 {
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\filter-" + scc + ".png");
+//            String png = ("D:\\image\\filter-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\filter-" + scc + ".png");
+
             FileHandler.copy(srcFile, new File(png));
 
             WebElement nav = driver.findElement(By.cssSelector(".nav-item.has-mega a.nav-link"));
@@ -33,7 +35,7 @@ public class Filter1 {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\filter-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\filter-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             WebElement filter = driver.findElement(By.xpath("/html/body/div[2]/div/aside/div[1]/div/aside[2]/div[2]/ul/li[1]/span/label"));
@@ -41,7 +43,7 @@ public class Filter1 {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\filter-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\filter-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep( 5000);

@@ -1,1 +1,2 @@
-https://www.postman.com/collections/4636785d8db476f0af96
+JSON: 		https://www.postman.com/collections/4636785d8db476f0af96
+DOCUMENTER:	https://documenter.getpostman.com/view/19272314/2s8YYLK2Bh	 

@@ -37,27 +37,30 @@
             "cost": 6
         }
     ],
+    "categories": [
+        {
+            "traiCayVN": {
+                "fruitIds": [
+                    3
+                ]
+            },
+            "traiCayNhapKhau": {
+                "fruitIds": [
+                    5,
+                    6
+                ]
+            }
+        }
+    ],
     "orders": [
         {
             "id": 1,
-            "fruitId": 1,
+            "fruitId": [
+                1
+            ],
             "customerName": "Evalyn_Schuppe51",
             "quantity": 1,
             "timestamp": 1645417257150
-        },
-        {
-            "id": 2,
-            "fruitId": 3,
-            "customerName": "chile",
-            "quantity": 1,
-            "timestamp": 1667807354822
-        },
-        {
-            "id": 3,
-            "fruitId": 4,
-            "customerName": "chile",
-            "quantity": 1,
-            "timestamp": 1667807428891
         }
     ],
     "users": [
@@ -66,12 +69,6 @@
             "username": "admin",
             "email": "admin@gmail.com",
             "password": "admin123"
-        },
-        {
-            "id": 2,
-            "username": "chile",
-            "email": "chile@gmail.com",
-            "password": "123456"
         }
     ],
     "bills": [
@@ -80,24 +77,6 @@
             "orderId": 1,
             "total": 1,
             "timestamp": 1645417257150
-        },
-        {
-            "id": 2,
-            "orderId": 1,
-            "total": 1,
-            "timestamp": 1667486947216
-        },
-        {
-            "id": 3,
-            "orderId": 1,
-            "total": 1,
-            "timestamp": 1667487054501
-        },
-        {
-            "id": 4,
-            "orderId": 2,
-            "total": 2,
-            "timestamp": 1667807503773
         }
     ]
 }

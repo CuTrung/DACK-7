@@ -28,7 +28,9 @@ public class ThemGioHang {
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\them-" + scc + ".png");
+//            String png = ("D:\\image\\them-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\them-" + scc + ".png");
+
             FileHandler.copy(srcFile, new File(png));
 
             WebElement view = driver.findElement(By.xpath("/html/body/div[2]/div/section/div[2]/section/div[1]/div[1]/div/div[2]/h3/a"));
@@ -36,7 +38,7 @@ public class ThemGioHang {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\them-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\them-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             WebElement add = driver.findElement(By.xpath("//*[@id=\"add-to-cart-form\"]/div[2]/button"));
@@ -44,7 +46,7 @@ public class ThemGioHang {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\them-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\them-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep( 5000);

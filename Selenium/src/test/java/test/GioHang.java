@@ -34,7 +34,9 @@ public class GioHang {
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\cart-" + scc + ".png");
+//            String png = ("D:\\image\\cart-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\cart-" + scc + ".png");
+
             FileHandler.copy(srcFile, new File(png));
 
             WebElement login = driver.findElement(By.cssSelector(".pull-xs-left .btn.btn-primary"));
@@ -42,7 +44,7 @@ public class GioHang {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\cart-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\cart-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             WebElement cart = driver.findElement(By.cssSelector(".mini-cart.text-xs-center .heading-cart a"));
@@ -50,7 +52,7 @@ public class GioHang {
 
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\cart-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\cart-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             //2. Dat Hang
@@ -58,7 +60,7 @@ public class GioHang {
             checkout.click();
             scc ++;
              srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             png = ("D:\\image\\cart-" + scc + ".png");
+             png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\cart-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep( 5000);

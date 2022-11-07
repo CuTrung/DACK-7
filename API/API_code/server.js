@@ -341,7 +341,7 @@ server.post('/auth/bills/:orderId', (req, res) => {
         })
         return res.status(200).json({
             status: 200,
-            message: "Success",
+            message: `Pay the bill Success, total = ${total}`,
             data: new_bill
         })
     } else {

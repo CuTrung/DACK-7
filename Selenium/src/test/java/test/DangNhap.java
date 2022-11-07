@@ -31,7 +31,9 @@ public class DangNhap {
 
             scc ++;
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String png = ("D:\\image\\dangnhap-" + scc + ".png");
+//            String png = ("D:\\image\\dangnhap-" + scc + ".png");
+            String png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\dangnhap-" + scc + ".png");
+
             FileHandler.copy(srcFile, new File(png));
 
             WebElement login = driver.findElement(By.cssSelector(".pull-xs-left .btn.btn-primary"));
@@ -39,7 +41,7 @@ public class DangNhap {
 
             scc ++;
             srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            png = ("D:\\image\\dangnhap-" + scc + ".png");
+            png = ("E:\\ITC\\HK4\\SoftwareTesting\\pratice\\DACK-7\\Selenium\\image_demo\\dangnhap-" + scc + ".png");
             FileHandler.copy(srcFile, new File(png));
 
             Thread.sleep(4000);

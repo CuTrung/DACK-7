@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="selenium_webdriver_java" />
+        <module name="Selenium" />
         <module name="selenium-java-demo" />
         <module name="selenium-webdriver-java-main" />
-        <module name="selenium_webdriver_java" />
       </profile>
     </annotationProcessing>
   </component>
